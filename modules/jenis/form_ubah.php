@@ -19,7 +19,7 @@ else {
     $data = mysqli_fetch_assoc($query);
   }
 ?>
-  <div class="panel-header bg-secondary-gradient">
+  <div class="panel-header bg-primary-gradient">
     <div class="page-inner py-4">
       <div class="page-header text-white">
         
@@ -55,7 +55,7 @@ else {
         </div>
         <div class="card-action">
           
-          <input type="submit" name="simpan" value="Simpan" class="btn btn-secondary btn-round pl-4 pr-4 mr-2">
+          <input type="submit" name="simpan" value="Simpan" class="btn btn-primary btn-round pl-4 pr-4 mr-2">
           
           <a href="?module=jenis" class="btn btn-default btn-round pl-4 pr-4">Batal</a>
         </div>

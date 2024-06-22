@@ -104,8 +104,6 @@ else { ?>
                 <label>Satuan <span class="text-danger">*</span></label>
                 <select name="satuan" class="form-control chosen-select" autocomplete="off" required>
                   <option selected disabled value="">-- Pilih --</option>
-                  <option value="Meter">Meter</option>
-                  <option value="Pieces">Pieces</option>
                   <?php
                   
                   $query_satuan = mysqli_query($mysqli, "SELECT * FROM tbl_satuan ORDER BY nama_satuan ASC")
