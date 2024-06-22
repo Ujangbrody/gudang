@@ -120,7 +120,7 @@ else { ?>
                 <div class="invalid-feedback">Satuan tidak boleh kosong.</div>
               </div>
             </div>
-            <div class="col-md-5 ml-auto">
+            <!-- <div class="col-md-5 ml-auto">  -->
               <!-- <div class="form-group">
                 <label>Foto Barang</label>
                 <input type="file" id="foto" name="foto" class="form-control" autocomplete="off">
@@ -135,7 +135,7 @@ else { ?>
                   - Ukuran file yang bisa diunggah maksimal 1 Mb.
                 </small>
               </div> -->
-            </div>
+            <!-- </div> -->
           </div>
         </div>
         <div class="card-action">
@@ -148,7 +148,7 @@ else { ?>
     </div>
   </div>
 
-  <script type="text/javascript">
+  <!-- <script type="text/javascript">
     $(document).ready(function() {
       
       $('#foto').change(function() {
@@ -196,5 +196,5 @@ else { ?>
         }
       });
     });
-  </script>
+  </script> -->
 <?php } ?>
